@@ -1,67 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- Header -->
-  <header>
-    <nav class="navbar">
-      <h1 class="logo">My Portfolio</h1>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- Hero Section -->
-  <section class="hero">
-    <h2>Hello, I'm <span class="highlight">Your Name</span></h2>
-    <p>Designer | Developer | Creator</p>
-    <button id="cta-button">View My Work</button>
-  </section>
-
-  <!-- About Section -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      Brief introduction about who you are, what you do, and your skills.
-      This section is a great place for your story.
-    </p>
-  </section>
-
-  <!-- Work Section -->
-  <section id="work">
-    <h2>My Work</h2>
-    <div class="projects">
-      <div class="project-card">
-        <img src="images/project1.jpg" alt="Project 1">
-        <h3>Project Title</h3>
-        <p>Short description of your project.</p>
-      </div>
-      <div class="project-card">
-        <img src="images/project2.jpg" alt="Project 2">
-        <h3>Project Title</h3>
-        <p>Short description of your project.</p>
-      </div>
+  <!-- Landing Section -->
+  <section class="landing">
+    <div class="overlay">
+      <h1 class="landing-title">Welcome to My Portfolio</h1>
+      <p class="landing-subtitle">Select a category to explore my work</p>
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email me at: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+  <!-- Options Grid -->
+  <section class="options">
+    <div class="option-card" style="background-image: url('images/option1.jpg');">
+      <a href="work1.html">
+        <h2>Design</h2>
+      </a>
+    </div>
+    <div class="option-card" style="background-image: url('images/option2.jpg');">
+      <a href="work2.html">
+        <h2>Photography</h2>
+      </a>
+    </div>
+    <div class="option-card" style="background-image: url('images/option3.jpg');">
+      <a href="work3.html">
+        <h2>Development</h2>
+      </a>
+    </div>
+    <div class="option-card" style="background-image: url('images/option4.jpg');">
+      <a href="work4.html">
+        <h2>Other Projects</h2>
+      </a>
+    </div>
   </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 Your Name. All rights reserved.</p>
-  </footer>
 
   <script src="script.js"></script>
 </body>
